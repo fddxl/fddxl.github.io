@@ -1,0 +1,18 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+
+li {
+  line-height: 1.8em;
+  margin-bottom: 20px;
+}
+
+.contents {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
