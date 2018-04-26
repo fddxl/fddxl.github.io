@@ -6,25 +6,28 @@
     <title>慶應義塾大学 SFC 田中浩也研究室 | Hiroya Tanaka Laboratory, Keio SFC</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/main.js" charset="utf-8"></script>
   </head>
   <body>
-    <header>
+    <header class="top">
       <div class="contents clearfix">
-        <div class="title">Keio SFC Hiroya Tanaka Lab.</div>
+        <div class="title"><a href="./">Keio SFC Hiroya Tanaka Lab.</a></div>
         <nav>
           <ul class="clearfix">
-            <li>TOP</li>
-            <li>ABOUT</li>
-            <li>FACILITIES</li>
-            <li>PUBLICATIONS</li>
-            <li>MEMBER</li>
-            <li>CONTACT</li>
+            <li><a href="./">TOP</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="facilities.html">FACILITIES</a></li>
+            <li><a href="publications.html">PUBLICATIONS</a></li>
+            <li><a href="member.html">MEMBER</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <div class="mbl">
-      <img src="img/top_slide_01.jpg" alt="">
+    <div id="slideshow">
+      <div class="item" style="background-image: url('img/top_slide_03.jpg')"></div>
+      <div class="item" style="background-image: url('img/top_slide_01.jpg')"></div>
+      <div class="item" style="background-image: url('img/top_slide_02.png')"></div>
     </div>
     <main>
       <div class="contents">
@@ -37,59 +40,123 @@
         </div>
         <h2>Creativity Support Tools</h2>
         <div class="grid clearfix">
-          <div class="item">
-            <img src="img/photo_walker.jpg" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/photo_walker.jpg')">
+              <a class="mask" href="http://web.sfc.keio.ac.jp/~htanaka/earthwalker/" target="_blank">
+                <div class="text">New Fieldwork Tools for Designers (2007)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/fab_campas.jpg" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/fab_campas.jpg')">
+              <a class="mask" href="https://www.youtube.com/playlist?list=PL4X65b_ziaJgn8mKz8uHljXcfb5vNMaZw" target="_blank">
+                <div class="text">On-Line Program for Fab STEM Learning (2015)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/fabble.jpg" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/fabble.jpg')">
+              <a class="mask" href="https://fabble.cc/" target="_blank">
+                <div class="text">Document Sharing System: Fabble (2015-)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/fab3d.jpg" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/fab3d.jpg')">
+              <a class="mask" href="http://fab3d.cc/" target="_blank">
+                <div class="text">Fab 3D Search Engine (2016-)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/got.jpg" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/got.jpg')">
+              <a class="mask" href="http://fab3d.cc/wiki" target="_blank">
+                <div class="text">ものゲノム (2016-)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/fabrix.jpg" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/fabrix.jpg')">
+              <a class="mask" href="https://www.fabrix.design/" target="_blank">
+                <div class="text">Fabrix for Advanced 3D Printing (2017-)</div>
+              </a>
+            </div>
           </div>
         </div>
         <h2>Featured Projects (2005 -)</h2>
         <div class="grid clearfix">
-          <div class="item">
-            <img src="img/arban_farming.jpg" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/arban_farming.jpg')">
+              <a class="mask" href="http://fab.sfc.keio.ac.jp/farming/html/Top.html" target="_blank">
+                <div class="text">Urban Farming x Fab (2016-)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/fab_nurse.png" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/fab_nurse.png')">
+              <a class="mask" href="http://fabnurse.org/" target="_blank">
+                <div class="text">Fab Nurse (2016-)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/archifab.png" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/archifab.png')">
+              <a class="mask" href="https://www.archifab.co/home" target="_blank">
+                <div class="text">Archi Fab (2014-)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/fabspace.png" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/fabspace.png')">
+              <a class="mask" href="http://fabcity.sfc.keio.ac.jp/fabspace/" target="_blank">
+                <div class="text">Fab Space (2013-2014)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/geoforming.jpg" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/geoforming.jpg')">
+              <a class="mask" href="http://geoforming.tumblr.com/" target="_blank">
+                <div class="text">Geo Forming (2012)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/saibai-media.png" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/saibai-media.png')">
+              <a class="mask" href="http://www.g-mark.org/award/describe/33918" target="_blank">
+                <div class="text">植物インターフェイスと栽培メディア (2006-2008)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/travelingbar.png" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/travelingbar.png')">
+              <a class="mask" href="http://fab.sfc.keio.ac.jp/blog/?p=376" target="_blank">
+                <div class="text">函館モバイルバープロジェクト (2005)</div>
+              </a>
+            </div>
           </div>
         </div>
         <h2>Special Exhibition (2005-)</h2>
         <div class="grid clearfix">
-          <div class="item">
-            <img src="img/open-resource-furniture.png" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/open-resource-furniture.png')">
+              <a class="mask" href="http://fab.sfc.keio.ac.jp/open/" target="_blank">
+                <div class="text">Open (Re)Source Furniture (2010-2012)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/callresponse.png" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/callresponse.png')">
+              <a class="mask" href="http://tent-info.com/" target="_blank">
+                <div class="text">Ars Electronica “Hybrid Art”(2008)</div>
+              </a>
+            </div>
           </div>
-          <div class="item">
-            <img src="img/totalrecall.png" alt="">
+          <div class="item-wrapper">
+            <div class="item" style="background-image: url('img/totalrecall.png')">
+              <a class="mask" href="http://www.aec.at/totalrecall/en/2013/07/29/total-recall-exhibition-2/" target="_blank">
+                <div class="text">Ars Electronica “Total Recall” (2013)</div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -99,5 +166,20 @@
         &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Keio SFC Hiroya Tanaka Lab.
       </div>
     </footer>
+    <script type="text/javascript">
+      function slideshow() {
+        setInterval(function () {
+          var $active = $("#slideshow .item.active");
+          var $next = $active.next(".item").length ? $active.next(".item") : $("#slideshow .item:first");
+          $active.removeClass("active");
+          $next.addClass("active");
+        }, 8000, slideshow);
+      }
+
+      $(window).on('load', function () {
+        $("#slideshow .item:first").addClass('active');
+        slideshow();
+      });
+    </script>
   </body>
 </html>
