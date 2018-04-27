@@ -207,6 +207,15 @@ footer .copyright {
 .row .col5:last-child {
   margin-right: 0;
 }
+.row .col5 a {
+  border: solid 1px #888;
+  display: block;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.row .col5 a:hover {
+  opacity: 0.6;
+}
 
 .list li {
   margin-bottom: 20px;
