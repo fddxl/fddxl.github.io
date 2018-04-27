@@ -141,14 +141,20 @@ footer .copyright {
 .grid .item-wrapper {
   float: left;
   position: relative;
-  width: 33.33%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  width: 32.66%;
+}
+.grid .item-wrapper:nth-of-type(3n) {
+  margin-right: 0;
 }
 .grid .item-wrapper:before {
     content:"";
     display: block;
-    padding-top: 75%;
+    padding-top: 60%;
 }
 .grid .item-wrapper .item {
+  background-position: center center;
   background-size: cover;
   position: absolute;
   top: 0;
