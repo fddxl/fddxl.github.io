@@ -196,8 +196,8 @@ footer .copyright {
 }
 .row .col3 {
   float: left;
-  margin-right: 1%;
-  width: 32.66%;
+  margin-right: 2%;
+  width: 32%;
 }
 .row .col3:last-child {
   margin-right: 0;
