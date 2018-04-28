@@ -23,7 +23,7 @@ window.onload = function() {
             scene.background = new THREE.Color(0x444444);
 
             var element = document.createElement("div");
-            element.className = "list-item";
+            element.className = "member";
             element.innerHTML = template.replace('$', name);
 
             scene.userData.element = element.querySelector(".scene");
