@@ -7,16 +7,16 @@ var memberListProfessor = {
 };
 
 var memberListProject = {
-    "益山詠夢": {
-        "stldata": "",
-        "join": "",
-        "title": "政策・メディア研究科 特任講師"
-    },
-    "小檜山賢二": {
-        "stldata": "",
-        "join": "",
-        "title": "慶應義塾大学 名誉教授"
-    },
+    // "益山詠夢": {
+    //     "stldata": "",
+    //     "join": "",
+    //     "title": "政策・メディア研究科 特任講師"
+    // },
+    // "小檜山賢二": {
+    //     "stldata": "",
+    //     "join": "",
+    //     "title": "慶應義塾大学 名誉教授"
+    // },
 }
 
 var memberListVisiting = {
@@ -34,11 +34,6 @@ var memberListGraduate = {
     "香田祖光": {
         "stldata": "stl/soko_koda.stl",
         "join": "2015",
-        "title": ""
-    },
-    "斎藤和行": {
-        "stldata": "",
-        "join": "2017",
         "title": ""
     },
     "立川博行": {
@@ -131,16 +126,6 @@ var memberListUndergraduate = {
     },
     "高盛竜馬": {
         "stldata": "stl/ryoma_takamori.stl",
-        "join": "2017",
-        "title": ""
-    },
-    "土屋佳祐": {
-        "stldata": "stl/keisuke_tsuchiya.stl",
-        "join": "2017",
-        "title": ""
-    },
-    "嶌田ひとみ": {
-        "stldata": "stl/hitomi_shimada.stl",
         "join": "2017",
         "title": ""
     },
