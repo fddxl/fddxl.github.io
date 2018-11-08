@@ -37,7 +37,7 @@ var memberListGraduate = {
         "title": ""
     },
     "立川博行": {
-        "stldata": "",
+        "stldata": "stl/tachikawa.stl",
         "join": "2015",
         "title": ""
     },
@@ -57,7 +57,7 @@ var memberListGraduate = {
         "title": ""
     },
     "吉岡純希": {
-        "stldata": "",
+        "stldata": "stl/yoshiokasan_fixed.stl",
         "join": "2017",
         "title": ""
     },
@@ -67,7 +67,7 @@ var memberListGraduate = {
         "title": ""
     },
    "脇本智正": {
-        "stldata": "",
+        "stldata": "stl/wakimod.stl",
         "join": "2017",
         "title": ""
     },
@@ -94,10 +94,10 @@ var memberListUndergraduate = {
         "join": "2015",
         "title": ""
     },
-    "深谷和史": {
-        "stldata": "stl/kazufumi_fukaya.stl?v=2",
-        "join": "2016",
-        "title": ""
+    // "深谷和史": {
+    //     "stldata": "stl/kazufumi_fukaya.stl?v=2",
+    //     "join": "2016",
+    //     "title": ""
     },
     "渡邉静佳": {
         "stldata": "stl/shizuka_watanabe.stl",
@@ -120,7 +120,7 @@ var memberListUndergraduate = {
         "title": ""
     },
     "久保木仁美": {
-        "stldata": "stl/hitomi_kuboki.stl",
+        "stldata": "stl/kuboki.stl",
         "join": "2017",
         "title": ""
     },
@@ -132,6 +132,31 @@ var memberListUndergraduate = {
     "名倉泰生": {
         "stldata": "stl/Yasuo_Nagura.stl",
         "join": "2017",
+        "title": ""
+    },
+    "佐倉玲": {
+        "stldata": "stl/rei.stl",
+        "join": "2018",
+        "title": ""
+    },
+    "櫻井智子": {
+        "stldata": "stl/tomoko.stl",
+        "join": "2018",
+        "title": ""
+    },
+    "森瑞貴": {
+        "stldata": "stl/mippu.stl",
+        "join": "2018",
+        "title": ""
+    },
+    "木下里奈": {
+        "stldata": "stl/rina.stl",
+        "join": "2018",
+        "title": ""
+    },
+    "髙橋穂乃花": {
+        "stldata": "stl/honoka.stl",
+        "join": "2018",
         "title": ""
     },
 };
