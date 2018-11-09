@@ -52,7 +52,7 @@ var memberListGraduate = {
         "title": ""
     },
     "徳重早織": {
-        "stldata": "",
+        "stldata": "stl/tokushige.stl",
         "join": "2017",
         "title": ""
     },
@@ -93,11 +93,6 @@ var memberListUndergraduate = {
         "stldata": "stl/sai_taoka.stl",
         "join": "2015",
         "title": ""
-    },
-    // "深谷和史": {
-    //     "stldata": "stl/kazufumi_fukaya.stl?v=2",
-    //     "join": "2016",
-    //     "title": ""
     },
     "渡邉静佳": {
         "stldata": "stl/shizuka_watanabe.stl",
@@ -145,7 +140,7 @@ var memberListUndergraduate = {
         "title": ""
     },
     "森瑞貴": {
-        "stldata": "stl/mippu.stl",
+        "stldata": "stl/brocoliman2.stl",
         "join": "2018",
         "title": ""
     },
