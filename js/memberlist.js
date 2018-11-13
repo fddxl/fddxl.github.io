@@ -57,7 +57,7 @@ var memberListGraduate = {
         "title": ""
     },
     "吉岡純希": {
-        "stldata": "stl/yoshiokasan_fixed.stl",
+        "stldata": "stl/yoshioka.stl",
         "join": "2017",
         "title": ""
     },
