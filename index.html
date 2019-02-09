@@ -13,8 +13,9 @@
     <meta property="og:site_name" content="慶應義塾大学 SFC 田中浩也研究室｜Hiroya Tanaka Laboratory, Keio SFC">
     <title>慶應義塾大学 SFC 田中浩也研究室 | Hiroya Tanaka Laboratory, Keio SFC</title>
     <link rel="stylesheet" href="css/main.css">
-    <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/main.js" charset="utf-8"></script>
+    <script src="js/3rdparty/lazyload.min.js" charset="utf-8"></script>
   </head>
   <body>
     <header class="top">
@@ -33,11 +34,11 @@
       </div>
     </header>
     <div id="slideshow">
-      <div class="item" style="background-image: url('img/fabgene.jpg')"></div>
-      <div class="item" style="background-image: url('img/top_slide_03.jpg')"></div>
-      <div class="item" style="background-image: url('img/top_slide_01.jpg')"></div>
-      <div class="item" style="background-image: url('img/top_slide_02.png')"></div>
-      <a href="http://fab.sfc.keio.ac.jp/fabgene/" class="item" style="background-image: url('img/fabgene.jpg'); display: block;"></a>
+        <div class="item" style="background-image: url('img/fabgene.jpg')"></div>
+        <div class="item" style="background-image: url('img/top_slide_03.jpg')"></div>
+        <div class="item" style="background-image: url('img/top_slide_01.jpg')"></div>
+        <div class="item" style="background-image: url('img/top_slide_02.png')"></div>
+        <a href="http://fab.sfc.keio.ac.jp/fabgene/" class="item" style="background-image:url('/img/fabgene.jpg'); display: block;"></a>
     </div>
     <main>
       <div class="contents">
@@ -51,63 +52,63 @@
         <h2>Movies</h2>
         <div class="grid clearfix">
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/movie_09.png')">
+            <div class="item" data-bg="url('./img/movie_09.png')">
               <a class="mask" href="https://vimeo.com/259768127" target="_blank">
                 <div class="text">4D Printed Nature (2018)<br>Sai Taoka, Hiroya Tanaka, Yasuo Nagura</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/movie_07.jpg')">
+            <div class="item" data-bg="url('./img/movie_07.jpg')">
               <a class="mask" href="https://vimeo.com/265398701" target="_blank">
                 <div class="text">Growable Robot with Additive-Additive-Manufacturing (2018)<br>Tomomasa Wakimoto, Ryoma Takamori, Soya Eguchi, Hiroya Tanaka</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/movie_08.png')">
+            <div class="item" data-bg="url('./img/movie_08.png')">
               <a class="mask" href="https://vimeo.com/140931777" target="_blank">
                 <div class="text">FABrick Beehive (2016)<br>Emu Masuyama, Haruna Okawa, Hiroyuki Tachikawa, Nao Tsushima, Kyoko Fukuda, Tomohiro Yasui</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/movie_05.png')">
+            <div class="item" data-bg="url('./img/movie_05.png')">
               <a class="mask" href="https://www.youtube.com/watch?v=do0t8Z0eyYQ" target="_blank">
                 <div class="text">Growing Plant Animation based on 4D Computed Tomography Measurement (2017)<br>Sakiho Kato, Tomofumi Narita, Chika Tomiyama, Hiroya Tanaka, Takashi Ijiri</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/movie_06.png')">
+            <div class="item" data-bg="url('./img/movie_06.png')">
               <a class="mask" href="https://vimeo.com/56070975" target="_blank">
                 <div class="text">2D Shape Construction by Self-Assembly (2013)<br>Atsushi Masumori, Hiroya Tanaka</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/movie_04.png')">
+            <div class="item" data-bg="url('./img/movie_04.png')">
               <a class="mask" href="https://www.youtube.com/watch?v=ITATOXVvWEM" target="_blank">
                 <div class="text">"Alchemist's Canvas" (Deep Learning for sketch-based 3D modelling)<br>Takumi Moriya, Atsushi Masumori, Hiroya Tanaka</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/movie_03.png')">
+            <div class="item" data-bg="url('./img/movie_03.png')">
               <a class="mask" href="https://www.youtube.com/watch?v=xEecbqgL2cg" target="_blank">
                 <div class="text">Self asembly by robotArm (2013)<br>Atsushi Masumori, Hiroya Tanaka</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/movie_02.png')">
+            <div class="item" data-bg="url('./img/movie_02.png')">
               <a class="mask" href="https://www.youtube.com/watch?v=f3P78uU9-S0" target="_blank">
                 <div class="text">Call and Response, Birds-Computer-Interaction (2007)<br>tEnt( Hiroya Tanaka + Macoto Cuhara)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/movie_01.png')">
+            <div class="item" data-bg="url('./img/movie_01.png')">
               <a class="mask" href="https://www.youtube.com/watch?v=-FPWPHv2aj4" target="_blank">
                 <div class="text">S-face VOL.026: Hiroya Tanaka</div>
               </a>
@@ -117,42 +118,42 @@
         <h2>Creativity Support Tools</h2>
         <div class="grid clearfix">
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/photo_walker.jpg')">
+            <div class="item" data-bg="url('./img/photo_walker.jpg')">
               <a class="mask" href="http://web.sfc.keio.ac.jp/~htanaka/earthwalker/" target="_blank">
                 <div class="text">New Fieldwork Tools for Designers (2007)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/fab_campas.jpg')">
+            <div class="item" data-bg="url('./img/fab_campas.jpg')">
               <a class="mask" href="https://www.youtube.com/playlist?list=PL4X65b_ziaJgn8mKz8uHljXcfb5vNMaZw" target="_blank">
                 <div class="text">On-Line Program for Fab STEM Learning (2015)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/fabble.png')">
+            <div class="item" data-bg="url('./img/fabble.png')">
               <a class="mask" href="https://fabble.cc/" target="_blank">
                 <div class="text">Document Sharing System: Fabble (2015-)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/fab3d.jpg')">
+            <div class="item" data-bg="url('./img/fab3d.jpg')">
               <a class="mask" href="http://fab3d.cc/" target="_blank">
                 <div class="text">Fab 3D Search Engine (2016-)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/got.png')">
+            <div class="item" data-bg="url('./img/got.png')">
               <a class="mask" href="http://fab3d.cc/wiki" target="_blank">
                 <div class="text">ものゲノム (2016-)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/fabrix.jpg')">
+            <div class="item" data-bg="url('./img/fabrix.jpg')">
               <a class="mask" href="https://www.fabrix.design/" target="_blank">
                 <div class="text">Fabrix for Advanced 3D Printing (2017-)</div>
               </a>
@@ -162,49 +163,49 @@
         <h2>Featured Projects (2005 -)</h2>
         <div class="grid clearfix">
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/arban_farming.jpg')">
+            <div class="item" data-bg="url('./img/arban_farming.jpg')">
               <a class="mask" href="http://fab.sfc.keio.ac.jp/farming/html/Top.html" target="_blank">
                 <div class="text">Urban Farming x Fab (2016-)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/fab_nurse.png')">
+            <div class="item" data-bg="url('./img/fab_nurse.png')">
               <a class="mask" href="http://fabnurse.org/" target="_blank">
                 <div class="text">Fab Nurse (2016-)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/archifab.png')">
+            <div class="item" data-bg="url('./img/archifab.png')">
               <a class="mask" href="https://www.archifab.co/home" target="_blank">
                 <div class="text">Archi Fab (2014-)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/fabspace.png')">
+            <div class="item" data-bg="url('./img/fabspace.png')">
               <a class="mask" href="http://fabcity.sfc.keio.ac.jp/fabspace/" target="_blank">
                 <div class="text">Fab Space (2013-2014)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/geoforming.jpg')">
+            <div class="item" data-bg="url('./img/geoforming.jpg')">
               <a class="mask" href="http://geoforming.tumblr.com/" target="_blank">
                 <div class="text">Geo Forming (2012)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/saibai-media.png')">
+            <div class="item" data-bg="url('./img/saibai-media.png')">
               <a class="mask" href="http://www.g-mark.org/award/describe/33918" target="_blank">
                 <div class="text">植物インターフェイスと栽培メディア (2006-2008)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/travelingbar.png')">
+            <div class="item" data-bg="url('./img/travelingbar.png')">
               <a class="mask" href="http://fab.sfc.keio.ac.jp/blog/?p=376" target="_blank">
                 <div class="text">函館モバイルバープロジェクト (2005)</div>
               </a>
@@ -214,21 +215,21 @@
         <h2>Special Exhibition (2005-)</h2>
         <div class="grid clearfix">
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/open-resource-furniture.png')">
+            <div class="item" data-bg="url('./img/open-resource-furniture.png')">
               <a class="mask" href="http://fab.sfc.keio.ac.jp/open/" target="_blank">
                 <div class="text">Open (Re)Source Furniture (2010-2012)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/callresponse.png')">
+            <div class="item" data-bg="url('./img/callresponse.png')">
               <a class="mask" href="http://tent-info.com/" target="_blank">
                 <div class="text">Ars Electronica “Hybrid Art”(2008)</div>
               </a>
             </div>
           </div>
           <div class="item-wrapper">
-            <div class="item" style="background-image: url('img/totalrecall.png')">
+            <div class="item" data-bg="url('./img/totalrecall.png')">
               <a class="mask" href="http://www.aec.at/totalrecall/en/2013/07/29/total-recall-exhibition-2/" target="_blank">
                 <div class="text">Ars Electronica “Total Recall” (2013)</div>
               </a>
@@ -257,5 +258,7 @@
         slideshow();
       });
     </script>
+    <script type="text/javascript">
+    var myLazyLoad = new LazyLoad({ elements_selector: ".item"});</script>
   </body>
 </html>
