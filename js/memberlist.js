@@ -25,39 +25,13 @@ var memberListVisiting = {
 
 
 var memberListGraduate = {
-
-    "Jianyou Li": {
-        "stldata": "stl/lee1.stl",
-        "join": "2014",
-        "title": ""
-    },
     "香田祖光": {
         "stldata": "stl/soko_koda.stl",
         "join": "2015",
         "title": ""
     },
-    "立川博行": {
-        "stldata": "stl/tachikawa.stl",
-        "join": "2015",
-        "title": ""
-    },
-    "淺野義弘": {
-        "stldata": "stl/yoshihiroasano.stl",
-        "join": "2013",
-        "title": ""
-    },
-    "守矢拓海": {
-        "stldata": "stl/takumimoriya1.stl",
-        "join": "2013",
-        "title": ""
-    },
     "徳重早織": {
         "stldata": "stl/tokushige.stl",
-        "join": "2017",
-        "title": ""
-    },
-    "吉岡純希": {
-        "stldata": "stl/yoshioka.stl",
         "join": "2017",
         "title": ""
     },
@@ -76,41 +50,37 @@ var memberListGraduate = {
         "join": "2014",
         "title": ""
     },
-};
-
-var memberListUndergraduate = {
-    "磯野えり": {
-        "stldata": "stl/eri_isono.stl",
-        "join": "2015",
-        "title": ""
-    },
-    "後藤圭": {
-        "stldata": "stl/kei_goto.stl",
-        "join": "2015",
-        "title": ""
-    },
     "田岡菜": {
         "stldata": "stl/sai_taoka.stl",
         "join": "2015",
         "title": ""
     },
+    "大日方伸": {
+        "stldata": "stl/shin_obinata.stl",
+        "join": "2017",
+        "title": ""
+    },
+    "青山新": {
+        "stldata": "",
+        "join": "2019",
+        "title": ""
+    },
+    "荒井将来": {
+        "stldata": "",
+        "join": "2019",
+        "title": ""
+    },
+
+};
+
+var memberListUndergraduate = {
     "渡邉静佳": {
         "stldata": "stl/shizuka_watanabe.stl",
         "join": "2016",
         "title": ""
     },
-    "秋元海人": {
-        "stldata": "stl/kaito_akimoto.stl",
-        "join": "2017",
-        "title": ""
-    },
     "江口壮哉": {
         "stldata": "stl/soya_eguchi.stl",
-        "join": "2017",
-        "title": ""
-    },
-    "大日方伸": {
-        "stldata": "stl/shin_obinata.stl",
         "join": "2017",
         "title": ""
     },
@@ -149,9 +119,29 @@ var memberListUndergraduate = {
         "join": "2018",
         "title": ""
     },
-    "髙橋穂乃花": {
-        "stldata": "stl/honoka.stl",
-        "join": "2018",
+    "勝沼千秋": {
+        "stldata": "",
+        "join": "2019",
+        "title": ""
+    },
+    "大河原さくら": {
+        "stldata": "",
+        "join": "2019",
+        "title": ""
+    },
+    "斎藤敬介": {
+        "stldata": "",
+        "join": "2019",
+        "title": ""
+    },
+    "矢崎友佳子": {
+        "stldata": "",
+        "join": "2019",
+        "title": ""
+    },
+    "松本夕折": {
+        "stldata": "",
+        "join": "2019",
         "title": ""
     },
 };
