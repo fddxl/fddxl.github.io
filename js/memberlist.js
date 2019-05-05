@@ -139,7 +139,7 @@ var memberListUndergraduate = {
         "join": "2019",
         "title": ""
     },
-    "松本夕折": {
+    "松本夕祈": {
         "stldata": "",
         "join": "2019",
         "title": ""
