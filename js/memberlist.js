@@ -71,7 +71,7 @@ var memberListGraduate = {
         "title": ""
     },
     "林園子": {
-        "stldata": "Sonoko.stl",
+        "stldata": "sonoko.stl",
         "join": "2019",
         "title": ""
     },
