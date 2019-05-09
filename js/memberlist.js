@@ -46,7 +46,7 @@ var memberListGraduate = {
         "title": ""
     },
     "若杉亮介": {
-        "stldata": "stl/wakasugi.stl",
+        "stldata": "stl/alizm_render.stl",
         "join": "2014",
         "title": ""
     },
@@ -67,6 +67,11 @@ var memberListGraduate = {
     },
     "荒井将来": {
         "stldata": "",
+        "join": "2019",
+        "title": ""
+    },
+    "林園子": {
+        "stldata": "Sonoko.stl",
         "join": "2019",
         "title": ""
     },
