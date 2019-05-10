@@ -130,11 +130,11 @@ var memberListUndergraduate = {
         "title": ""
     },
     "大河原さくら": {
-        "stldata": "",
+        "stldata": "stl/OkawaraSakura",
         "join": "2019",
         "title": ""
     },
-    "斎藤敬介": {
+    "齋藤敬介": {
         "stldata": "",
         "join": "2019",
         "title": ""
