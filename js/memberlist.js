@@ -115,7 +115,7 @@ var memberListUndergraduate = {
         "title": ""
     },
     "森瑞貴": {
-        "stldata": "stl/mippu.stl",
+        "stldata": "stl/brocoliman2.stl",
         "join": "2018",
         "title": ""
     },
