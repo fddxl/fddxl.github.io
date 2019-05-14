@@ -129,6 +129,11 @@ var memberListUndergraduate = {
         "join": "2019",
         "title": ""
     },
+    "松本夕祈": {
+        "stldata": "stl/matsumoyu2.stl",
+        "join": "2019",
+        "title": ""
+    },
     "大河原さくら": {
         "stldata": "stl/OkawaraSakura.stl",
         "join": "2019",
@@ -141,11 +146,6 @@ var memberListUndergraduate = {
     },
     "矢崎友佳子": {
         "stldata": "",
-        "join": "2019",
-        "title": ""
-    },
-    "松本夕祈": {
-        "stldata": "stl/matsumoyu2.stl",
         "join": "2019",
         "title": ""
     },
