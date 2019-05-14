@@ -61,12 +61,12 @@ var memberListGraduate = {
         "title": ""
     },
     "青山新": {
-        "stldata": "",
+        "stldata": "stl/190513_aoyama_scan.stl",
         "join": "2019",
         "title": ""
     },
     "荒井将来": {
-        "stldata": "",
+        "stldata": "stl/arai.stl",
         "join": "2019",
         "title": ""
     },
@@ -125,7 +125,7 @@ var memberListUndergraduate = {
         "title": ""
     },
     "勝沼千秋": {
-        "stldata": "",
+        "stldata": "stl/katsunuma.stl",
         "join": "2019",
         "title": ""
     },
@@ -145,7 +145,7 @@ var memberListUndergraduate = {
         "title": ""
     },
     "松本夕祈": {
-        "stldata": "",
+        "stldata": "stl/matsumoyu2.stl",
         "join": "2019",
         "title": ""
     },
