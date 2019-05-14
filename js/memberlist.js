@@ -140,7 +140,7 @@ var memberListUndergraduate = {
         "title": ""
     },
     "齋藤敬介": {
-        "stldata": "",
+        "stldata": "stl/keisuke5000.stl",
         "join": "2019",
         "title": ""
     },
