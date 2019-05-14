@@ -145,7 +145,7 @@ var memberListUndergraduate = {
         "title": ""
     },
     "矢崎友佳子": {
-        "stldata": "",
+        "stldata": "stl/yukako2.stl",
         "join": "2019",
         "title": ""
     },
