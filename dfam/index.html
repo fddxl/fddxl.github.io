@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--  Dfam index html-->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="keywords" content="ファブ, デジタルファブリケーション, 3Dプリンタ, レーザーカッター, ソーシャルファブリケーション, パーソナルファブリケーション, SFC,Fab,FabLab,FabSpace,Social Fabrication,工作設備,プロトタイピング,創造性,IoT,オープンイノベーション,open innovation,田中浩也">
+    <meta name="description" content="デジタルな世界とフィジカルな世界を横断し結合する、新しい創造力と触媒力「ファブ(FAB)」について、実際にモノをつくることを通して探求する研究室です。">
+    <meta property="og:title" content="慶應義塾大学SFC田中浩也研究室(Social Fabrication Laboratory)">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://fab.sfc.keio.ac.jp">
+    <meta property="og:description" content="デジタルな世界とフィジカルな世界を横断し結合する、新しい創造力と触媒力「ファブ(FAB)」について、実際にモノをつくることを通して探求する研究室です。">
+    <meta property="og:image" content="http://fab.sfc.keio.ac.jp/img/top_slide_01.jpg" />
+    <meta property="og:site_name" content="慶應義塾大学 SFC 田中浩也研究室｜Hiroya Tanaka Laboratory, Keio SFC">
+
+    <title>慶應義塾大学 SFC 田中浩也研究室 | Hiroya Tanaka Laboratory, Keio SFC</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+    <script src="js/3rdparty/lazyload.min.js" charset="utf-8"></script>
+  </head>
+
+
+  <body>
+
+    <!--
+    <header class="top">
+      <div class="contents clearfix">
+        <div class="title"><a href="./index.html">DfAM Case Studies</a></div>
+        <nav>
+          <ul class="clearfix">
+            <li><a href="./index.html">What's DfAM?</a></li>
+            <li><a href="./projects.html">Case Studies</a></li>
+            <li><a href="../index.html">Lab Site</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  -->
+  <main>
+
+      <video autoplay muted playsinline src="img/dfam_logo_mov2.mp4"></video>
+
+
+
+      <div class="navvv">
+      <div class="contents clearfix">
+        <div class="title"><a href="./index.html">DfAM Case Studies</a></div>
+        <nav>
+          <ul class="clearfix">
+            <li><a href="./index.html">What's DfAM?</a></li>
+            <li><a href="./projects.html">Case Studies</a></li>
+            <li><a href="../index.html">Lab Site</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+      <div class="overview">
+        <h1>DfAMとは。</h1>
+        <p class="readable">
+          DFAM（ディーファム）とは、「Design for Additive Manufacturing（付加製造のための設計）」の頭文字を取った略称です。<br>
+          DFAMは3Dプリンティング（アディティブ・マニュファクチャリング）のメリットを最大限に活かすための設計ガイドラインでありツールであると言えます。<br>
+          正しいデータ設計なしには、いかに優秀な3Dプリンターや正確なセッティングであっても、最大の成果を得ることはできません。コンピュータ計算にとってのプログラミングのように、3DプリンティングにとってDFAMは不可欠な存在といえます。<br>
+          DFAMの例としては、3Dプリンターのビルドプレート上にパーツを配置するような簡単な操作もあれば、より優れた効果を得るためにCAE解析の結果を反映させたり、3Dプリンティングによってのみ作成可能なパーツを造形したり、プリントするパーツを最適化したりするような複数の段階的な操作も含まれます。<br>
+        </p>
+
+
+        <h1>DfAMの種類</h1>
+        <p class="readable">
+        ・Topology Optimization<br>
+        ・MultiScale Structure Design<br>
+        ・Multi-Material Design<br>
+
+        ・Design for Mass Customization<br>
+        ・Parts Consolidation<br>
+        ・Lattice Structure<br><br>
+
+
+        Design for fff<br><br>
+
+        ・Path<br>
+        ・Surface<br>
+        ・Internal<br>
+      </p>
+
+      </div>
+
+
+
+    </main>
+
+
+
+    <footer>
+      <div class="copyright">
+        &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Keio SFC, FabWill Sub Seminar in Hiroya Tanaka Lab.
+      </div>
+    </footer>
+
+
+
+    <script type="text/javascript">
+      function slideshow() {
+        setInterval(function () {
+          var $active = $("#slideshow .item.active");
+          var $next = $active.next(".item").length ? $active.next(".item") : $("#slideshow .item:first");
+          $active.removeClass("active");
+          $next.addClass("active");
+        }, 8000, slideshow);
+      }
+
+      $(window).on('load', function () {
+        $("#slideshow .item:first").addClass('active');
+        slideshow();
+      });
+    </script>
+
+    <script type="text/javascript">
+    var myLazyLoad = new LazyLoad({ elements_selector: ".item"});
+    </script>
+  </body>
+</html>
