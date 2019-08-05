@@ -41,7 +41,7 @@
   -->
   <main>
 
-      <video autoplay muted playsinline src="./img/dfam_logo_mov2.mp4"></video>
+      <video autoplay muted playsinline src="img/dfam_logo_mov2.mp4"></video>
 
 
 
@@ -59,33 +59,103 @@
     </div>
 
       <div class="overview">
-        <h1>DfAMとは。 </h1>
-        <p class="readable">
-          DFAM（ディーファム）とは、「Design for Additive Manufacturing（付加製造のための設計）」の頭文字を取った略称です。<br>
-          DFAMは3Dプリンティング（アディティブ・マニュファクチャリング）のメリットを最大限に活かすための設計ガイドラインでありツールであると言えます。<br>
-          正しいデータ設計なしには、いかに優秀な3Dプリンターや正確なセッティングであっても、最大の成果を得ることはできません。コンピュータ計算にとってのプログラミングのように、3DプリンティングにとってDFAMは不可欠な存在といえます。<br>
-          DFAMの例としては、3Dプリンターのビルドプレート上にパーツを配置するような簡単な操作もあれば、より優れた効果を得るためにCAE解析の結果を反映させたり、3Dプリンティングによってのみ作成可能なパーツを造形したり、プリントするパーツを最適化したりするような複数の段階的な操作も含まれます。<br>
-        </p>
+        <h1><span>DfAMとは</span></h1>
+        <div class="dfam_desc">
+          <p class="readable">
+          DfAMとは、"Design for Additive Manufacturing"の頭文字を取った略称であり、3DプリンターのようなAM(Additive Manufacturing)技術の可能性を引き出すためのデザイン手法のことを指す。
+          DfAMは、AMの技術によって提供される設計の自由度が非常に大きいことから生まれており、AMの特色を最大限に活かすためには、DfAMの手法またはツールが必要となってくる。
 
 
-        <h1>DfAMの種類</h1>
-        <p class="readable">
-        ・Topology Optimization<br>
-        ・MultiScale Structure Design<br>
-        ・Multi-Material Design<br>
-
-        ・Design for Mass Customization<br>
-        ・Parts Consolidation<br>
-        ・Lattice Structure<br><br>
+          </p>
+        </div>
+      </div>
 
 
-        Design for fff<br><br>
+        <div class="overview">
+        <h1><span>DfAMの種類</span></h1>
 
-        ・Path<br>
-        ・Surface<br>
-        ・Internal<br>
-      </p>
+        <div class="dfam_desc">
+          <h2>Topology Optimization</h2>
+          <p class="readable">
+            与えられた空間的制約、材料物性、負荷から最適な形状を求める手法。多くの場合非常に複雑な形状となるため、従来の切削加工では造形が難しかったが、Additive Manufacturingによって実用化された。強度と軽量化が重要な航空機や自動車の分野で多く活用されている。
+          </p>
+        </div>
 
+        <div class="dfam_desc">
+          <h2>Multi-Scale Structure Design</h2>
+          <p class="readable">
+            ここで言うMulti-Scaleは主に微小構造のことを言う。例えばバイオプリンティングなどの分野では顕微鏡スケールでの造形となる。
+          </p>
+        </div>
+
+        <div class="dfam_desc">
+          <h2>Multi-Material Design</h2>
+          <p class="readable">
+            複数材料を一体で造形することや、混合比をグラデーションさせることによる傾斜機能材料が実現した。複雑にマテリアルを制御することを前提としたモデリング、スライスソフトウェアは現状存在しないため、FAVフォーマットなど開発が進められている。
+          </p>
+        </div>
+
+        <div class="dfam_desc">
+          <h2>Design for Mass Customization</h2>
+          <p class="readable">
+            積層造形はデジタルで設計されたモデルから直接部品を出力することができる。そのため、カスタマイズ製品を製造する工程・時間を大幅に削減することが可能になった。
+            現在は、設計者またはユーザーが容易にカスタマイズされた製品を入手することを手助けするための設計方法が提案されている。
+            利用方法としては、個人の体の形に合わせたギプスなどが挙げられる
+          </p>
+        </div>
+
+
+        <div class="dfam_desc">
+          <h2>Parts Consolidation</h2>
+          <p class="readable">
+            従来、複雑な構造物は、製造および組み立ての容易さのためにいくつかの部品に分けて扱われていた。複数の部品に分け製造したのち、組み立てられるように設計がされている。
+            しかし、積層造形の技術によって、オリジナルにデザインされた構造物を一括で製造することが可能になった。
+            これにより、扱う部品の数が減るだけでなく、製品の機能の向上も期待できる
+          </p>
+        </div>
+
+        <div class="dfam_desc">
+          <h2>Lattice Structure</h2>
+          <p class="readable">
+            積層造形が持つ自由造形能力により、格子構造などの複雑な内部を持つ造形品の製造が可能になった。
+            この造形は、以前までの方法だと製造が困難であり、それゆえに製品に広く使用されてはいなかった。
+            講師構造は高強度で、かつ低質量の特徴がある。航空宇宙事業およびバイオメディカル事業への応用が期待される。
+          </p>
+        </div>
+      </div>
+
+
+
+      <div class="overview">
+        <h1><span>Design for FFF</span></h1>
+
+        <div class="dfam_desc">
+          <h2 class="forFFF">Path</h2>
+          <p class="readable">
+            FFF方式の樹脂の吐出を線にみたてて造形を行う手法。
+            造形物を線で構成された形状と解釈し、制御することで造形の幅は大きく広がることをねらったものである。
+          </p>
+        </div>
+
+
+        <div class="dfam_desc">
+          <h2 class="forFFF">Surface</h2>
+          <p class="readable">
+            造形物の表面に特定の形状を与えることにより機能を持たせる手法。
+            面に対して，動きを与える造形。
+            あらかじめ切れ込みを入れることにより、2次元の平面が3次曲面へと変化したり、微妙な接合部をあらかじめ用意しておくことにより破壊のコントロールなどを行うことができる。
+          </p>
+        </div>
+
+
+        <div class="dfam_desc">
+          <h2 class="forFFF">Internal</h2>
+          <p class="readable">
+            除去加工では不可能だった複雑な3次元形状を直接造形する手法。
+            内部構造を複雑に造形することによって、軽量化や新たな色彩表現、見た目や機能を与えることができる。
+          </p>
+
+        </div>
       </div>
 
 
