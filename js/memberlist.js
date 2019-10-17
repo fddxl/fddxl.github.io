@@ -35,11 +35,6 @@ var memberListGraduate = {
         "join": "2017",
         "title": ""
     },
-    "Rafael Chen": {
-        "stldata": "stl/rafael_chen.stl",
-        "join": "2017",
-        "title": ""
-    },
    "脇本智正": {
         "stldata": "stl/wakimod.stl",
         "join": "2017",
@@ -134,11 +129,6 @@ var memberListUndergraduate = {
         "join": "2019",
         "title": ""
     },
-    "大河原さくら": {
-        "stldata": "stl/OkawaraSakura.stl",
-        "join": "2019",
-        "title": ""
-    },
     "齋藤敬介": {
         "stldata": "stl/keisuke5000.stl",
         "join": "2019",
@@ -149,4 +139,25 @@ var memberListUndergraduate = {
         "join": "2019",
         "title": ""
     },
+    "有田悠作": {
+        "stldata": "stl/yusaku_face.stl",
+        "join": "2019",
+        "title": ""
+    },
+    "出口大成": {
+        "stldata": "stl/deguchifinal.stl",
+        "join": "2019",
+        "title": ""
+    },
+    "松木南々花": {
+        "stldata": "stl/nanakamfin.stl",
+        "join": "2019",
+        "title": ""
+    },
+    "知念司泰": {
+        "stldata": "stl/MoriyasuChinen.stl",
+        "join": "2019",
+        "title": ""
+    },
+
 };
