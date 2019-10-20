@@ -159,13 +159,13 @@ var memberListUndergraduate = {
         "join": "2019",
         "title": ""
     },
-    "出口大成": {
-        "stldata": "stl/deguchifinal.stl",
+    "知念司泰": {
+        "stldata": "stl/MoriyasuChinen.stl",
         "join": "2019",
         "title": ""
     },
-    "知念司泰": {
-        "stldata": "stl/MoriyasuChinen.stl",
+    "出口大成": {
+        "stldata": "stl/deguchifinal.stl",
         "join": "2019",
         "title": ""
     },
