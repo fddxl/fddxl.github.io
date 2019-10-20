@@ -70,6 +70,11 @@ var memberListGraduate = {
         "join": "2019",
         "title": ""
     },
+    "黄丁": {
+        "stldata": "stl/kou.stl",
+        "join": "2019",
+        "title": ""
+    },
 
 };
 
@@ -139,8 +144,18 @@ var memberListUndergraduate = {
         "join": "2019",
         "title": ""
     },
+    "河合萌": {
+        "stldata": "stl/MegKawai.stl",
+        "join": "2019",
+        "title": ""
+    },
     "有田悠作": {
         "stldata": "stl/yusaku_face.stl",
+        "join": "2019",
+        "title": ""
+    },
+    "加藤陸": {
+        "stldata": "stl/katoriku.stl",
         "join": "2019",
         "title": ""
     },
