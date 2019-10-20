@@ -164,15 +164,14 @@ var memberListUndergraduate = {
         "join": "2019",
         "title": ""
     },
-    "松木南々花": {
-        "stldata": "stl/nanakamfin.stl",
-        "join": "2019",
-        "title": ""
-    },
     "知念司泰": {
         "stldata": "stl/MoriyasuChinen.stl",
         "join": "2019",
         "title": ""
     },
-
+    "松木南々花": {
+        "stldata": "stl/nanakamfin.stl",
+        "join": "2019",
+        "title": ""
+    },
 };
