@@ -7,9 +7,21 @@ main color: rgba(40, 68, 94, 1)
 body {
   color: #444;
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 15px;
   margin: 0;
 }
+
+@media screen and (max-width:480px){
+  body {
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width:480px){
+  body {
+    font-size: 15px;
+  }
+}
+
 
 img {
   display: block;
@@ -66,18 +78,60 @@ header .title a {
 header.top .title a {
   color: #fff;
 }
-header nav {
-  float: right;
-  margin-right: -12px;
+
+@media screen and (max-width:480px){
+  header {
+    padding: 30px 0;
+    font-size: 10px;
+  }
 }
-header nav ul {
-  list-style: none;
+
+@media screen and (min-width:480px){
+  header {
+    padding: 60px 0 40px;
+    width: 100%;
+  }
 }
-header nav ul li {
-  float: left;
-  font-weight: bold;
-  padding: 0 12px;
+
+/* navigation */
+
+/* 0-480 */
+@media screen and (max-width:480px){
+
+  header nav {
+    margin-top: 3%;
+    float: right;
+
+  }
+  header nav ul {
+    list-style: none;
+  }
+  header nav ul li {
+    float: left;
+    font-weight: bold;
+    padding: 0 4px;
+    font-size: 10px;
+  }
+
+
+
 }
+
+@media screen and (min-width:481px){
+  header nav {
+    float: right;
+    margin-right: -12px;
+  }
+  header nav ul {
+    list-style: none;
+  }
+  header nav ul li {
+    float: left;
+    font-weight: bold;
+    padding: 0 12px;
+  }
+}
+
 header nav ul li a {
   color: rgba(40, 68, 94, 1);
   text-decoration: none;
@@ -92,6 +146,9 @@ header.top nav ul li a {
 header.top nav ul li a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
+
+
+/* footer */
 
 footer {
   padding: 90px 0 60px;
@@ -288,8 +345,17 @@ footer .copyright {
 .mbs {
   margin-bottom: 20px;
 }
-.mll {
-  margin-left: 60px;
+@media screen and (max-width:780px){
+  .mll {
+    margin-left: 0px;
+    margin-right: 5%;
+  }
+}
+@media screen and (min-width:780px){
+  .mll{
+    margin-left: 60px;
+    margin-right: 5%;
+  }
 }
 .mlm {
   margin-left: 40px;
