@@ -79,11 +79,6 @@ var memberListGraduate = {
 };
 
 var memberListUndergraduate = {
-    "渡邉静佳": {
-        "stldata": "stl/shizuka_watanabe.stl",
-        "join": "2016",
-        "title": ""
-    },
     "江口壮哉": {
         "stldata": "stl/soya_eguchi.stl",
         "join": "2017",
