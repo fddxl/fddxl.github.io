@@ -12,7 +12,7 @@ body {
 
 @media screen and (max-width:480px){
   body {
-    font-size: 9px;
+    font-size: 8px;
   }
 }
 
@@ -37,11 +37,12 @@ h1 {
 }
 h2 {
   border-bottom: 3px solid #B6D1E1;
-  margin: 60px 0 30px;
-  padding-bottom: 10px;
+  margin: 5% 0 5%;
+  padding-bottom: 2%;
+  padding-top: 0px;
 }
 h3 {
-  margin: 30px 0 10px;
+  margin: 4% 0 10px;
 }
 h4 {
   margin: 25px 0 10px;
@@ -55,6 +56,10 @@ p a {
 p a:hover {
   color: rgba(80, 108, 194, 1);
 }
+
+
+/*header*/
+
 
 header {
   padding: 60px 0 40px;
@@ -79,24 +84,16 @@ header.top .title a {
   color: #fff;
 }
 
+
+/* navigation */
+
+
 @media screen and (max-width:480px){
+
   header {
     padding: 30px 0;
     font-size: 10px;
   }
-}
-
-@media screen and (min-width:480px){
-  header {
-    padding: 60px 0 40px;
-    width: 100%;
-  }
-}
-
-/* navigation */
-
-/* 0-480 */
-@media screen and (max-width:480px){
 
   header nav {
     margin-top: 3%;
@@ -109,15 +106,20 @@ header.top .title a {
   header nav ul li {
     float: left;
     font-weight: bold;
-    padding: 0 4px;
-    font-size: 10px;
+    padding: 0 2px;
+    font-size: 7.5px;
   }
 
 
 
 }
 
-@media screen and (min-width:481px){
+@media screen and (min-width:480px){
+
+  header {
+    padding: 60px 0 40px;
+    width: 100%;
+  }
   header nav {
     float: right;
     margin-right: -12px;
@@ -128,7 +130,7 @@ header.top .title a {
   header nav ul li {
     float: left;
     font-weight: bold;
-    padding: 0 12px;
+    padding: 0 8px;
   }
 }
 
@@ -146,6 +148,7 @@ header.top nav ul li a {
 header.top nav ul li a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
+
 
 
 /* footer */
@@ -200,10 +203,14 @@ footer .copyright {
   margin-right: 30px;
 }
 
+
+main{
+  margin: 0 5%;
+}
 .contents {
   max-width: 1200px;
   margin: auto;
-  padding: 0 35px;
+  padding: 0 4%;
 }
 
 .grid .item-wrapper {
@@ -350,19 +357,25 @@ footer .copyright {
     margin-left: 0px;
     margin-right: 5%;
   }
+
+  .mrm {
+    margin-right: 20%;
+  }
 }
 @media screen and (min-width:780px){
   .mll{
     margin-left: 60px;
     margin-right: 5%;
   }
+
+  .mrm {
+    margin-right: 40px;
+  }
 }
 .mlm {
   margin-left: 40px;
 }
-.mrm {
-  margin-right: 40px;
-}
+
 
 .clearfix:before {
   display: table;
