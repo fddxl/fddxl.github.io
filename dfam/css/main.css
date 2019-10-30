@@ -242,7 +242,7 @@ footer .copyright {
   max-width: 1800px;
   margin: auto;
 
-  padding: 0 35px;
+  padding: 0 5px;
 
 }
 
@@ -277,8 +277,7 @@ a{
 }
 
 a:hover{
-
-  color: rgba(232, 212, 99, 0.9);
+  color: rgba(40, 68, 94, 0.5);
 }
 
 video{
