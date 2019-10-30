@@ -316,7 +316,8 @@ main{
   margin-right: 0;
 }
 
-@media screen and (min-width:480px){
+
+@media screen and (max-width:480px){
 .member .scene {
   display: inline-block;
   margin: 0 1em 0 0;

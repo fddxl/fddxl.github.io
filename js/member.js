@@ -96,20 +96,14 @@ window.onload = function() {
     animate();
 }
 
-
 function updateSize() {
     var width = canvas.clientWidth;
     var height = canvas.clientHeight;
 
-    const w = window.innerWidth
-  
-
     if (canvas.width != width || canvas.height != height) {
         renderer.setSize(width, height, false);
     }
-
 }
-
 
 function animate() {
     render();
