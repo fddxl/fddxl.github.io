@@ -252,13 +252,12 @@ main{
 .grid .item .mask .text {
   color: #fff;
   margin: auto;
-  height: 30%;
-  width: 80%;
   opacity: 0;
+  width: 80%;
   text-align: center;
   position: absolute;
-  top: 0;
   bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
   transition: all 0.5s ease;
@@ -266,6 +265,21 @@ main{
 .grid .item .mask:hover .text {
   opacity: 1;
 }
+
+@media screen and (min-width: 480px){
+  .text{
+    font-size: 15px;
+    height: 30%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .text{
+    font-size: 6px;
+    height: 60%;
+  }
+}
+
 
 .row .col2 {
   float: left;
