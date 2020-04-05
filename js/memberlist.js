@@ -30,21 +30,6 @@ var memberListGraduate = {
         "join": "2015",
         "title": ""
     },
-    "徳重早織": {
-        "stldata": "stl/tokushige.stl",
-        "join": "2017",
-        "title": ""
-    },
-   "脇本智正": {
-        "stldata": "stl/wakimod.stl",
-        "join": "2017",
-        "title": ""
-    },
-    "若杉亮介": {
-        "stldata": "stl/alizm_render.stl",
-        "join": "2014",
-        "title": ""
-    },
     "田岡菜": {
         "stldata": "stl/sai_taoka.stl",
         "join": "2015",
@@ -84,11 +69,6 @@ var memberListUndergraduate = {
         "join": "2017",
         "title": ""
     },
-    "久保木仁美": {
-        "stldata": "stl/kuboki.stl",
-        "join": "2017",
-        "title": ""
-    },
     "高盛竜馬": {
         "stldata": "stl/ryoma_takamori.stl",
         "join": "2017",
@@ -117,11 +97,6 @@ var memberListUndergraduate = {
     "木下里奈": {
         "stldata": "stl/rina.stl",
         "join": "2018",
-        "title": ""
-    },
-    "勝沼千秋": {
-        "stldata": "stl/katsunuma.stl",
-        "join": "2019",
         "title": ""
     },
     "松本夕祈": {
@@ -156,11 +131,6 @@ var memberListUndergraduate = {
     },
     "知念司泰": {
         "stldata": "stl/MoriyasuChinen.stl",
-        "join": "2019",
-        "title": ""
-    },
-    "出口大成": {
-        "stldata": "stl/deguchifinal.stl",
         "join": "2019",
         "title": ""
     },
