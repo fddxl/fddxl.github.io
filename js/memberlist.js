@@ -60,6 +60,16 @@ var memberListGraduate = {
         "join": "2019",
         "title": ""
     },
+    "賀下耀介": {
+        "stldata": "stl/gashita.stl",
+        "join": "2019",
+        "title": ""
+    },
+    "酒井絵理": {
+        "stldata": "stl/sakaieri.stl",
+        "join": "2020",
+        "title": ""
+    },
 
 };
 
@@ -137,6 +147,11 @@ var memberListUndergraduate = {
     "松木南々花": {
         "stldata": "stl/nanakamfin.stl",
         "join": "2019",
+        "title": ""
+    },
+    "中村亮太": {
+        "stldata": "stl/ryota.stl",
+        "join": "2020",
         "title": ""
     },
 };
